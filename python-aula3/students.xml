@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <student>
+        <name>Darllinson</name>
+        <register>2213081009</register>
+        <rating>9.2</rating>
+    </student>
+    <student>
+        <name>José Anderson</name>
+        <register>1231231231</register>
+        <rating>10</rating>
+    </student>
+</students>

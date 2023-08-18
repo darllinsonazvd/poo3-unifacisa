@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<passengers>
+    <passenger>
+        <name>Darllinson Azevedo</name>
+        <age>19</age>
+        <ticketNumber>130987</ticketNumber>
+        <origin>Nova Floresta - PB</origin>
+        <destination>Rio de Janeiro - RJ</destination>
+    </passenger>
+    <passenger>
+        <name>Pedro Henrique Pereira</name>
+        <age>22</age>
+        <ticketNumber>123789</ticketNumber>
+        <origin>Campina Grande - PB</origin>
+        <destination>São Paulo - SP</destination>
+    </passenger>
+    <passenger>
+        <name>Pedro Henrique Gomes</name>
+        <age>21</age>
+        <ticketNumber>456712</ticketNumber>
+        <origin>Campina Grande - PB</origin>
+        <destination>Orlando - EUA</destination>
+    </passenger>
+    <passenger>
+        <name>Rafael Macedo</name>
+        <age>21</age>
+        <ticketNumber>640987</ticketNumber>
+        <origin>Campina Grande - PB</origin>
+        <destination>Porto - Portugal</destination>
+    </passenger>
+    <passenger>
+        <name>Ramon Montenegro</name>
+        <age>23</age>
+        <ticketNumber>123736</ticketNumber>
+        <origin>São Paulo - SP</origin>
+        <destination>Brasília - DF</destination>
+    </passenger>
+</passengers>

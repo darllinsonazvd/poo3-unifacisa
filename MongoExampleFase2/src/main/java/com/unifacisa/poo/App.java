@@ -31,14 +31,15 @@ public class App {
         MongoCollection<Product> collection = database.getCollection("Product", Product.class);
 
         // Inserindo produtos no banco de dados
-//        collection.insertOne(new Product(1, "Galaxy A51", 1200));
-//        collection.insertOne(new Product(2, "Mouse Redragon", 150));
-//        collection.insertOne(new Product(3, "Monitor Samsung 24''", 650));
+        collection.insertOne(new Product(1, "Galaxy A51", 1200));
+        collection.insertOne(new Product(2, "Mouse Redragon", 150));
+        collection.insertOne(new Product(3, "Monitor Samsung 24''", 650));
 
         // Atualizando um produto
-//        collection.updateOne(new Document("_id", 1), set("price", 949.90));
+        collection.updateOne(new Document("_id", 1), set("price", 949.90));
 
         // Apagando um produto
         collection.deleteOne(new Document("description", "Mouse Redragon"));
-    }
+        mongoClient.close();     
+   }
 }
